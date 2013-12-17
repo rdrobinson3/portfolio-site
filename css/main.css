@@ -47,9 +47,11 @@ body {
   
 }
 
+/* Carousel */
 .carousel {
     box-shadow: 0 0 15px black;
 }
+
 .carousel-inner > .item > img{
    min-width: 100%;
    min-height: 500px;
@@ -62,6 +64,7 @@ margin: auto;
 max-width: none;
 }
 
+/* Info Panels */
 .info-panel-container {
 
   margin: 20px 0px 20px 0px;
@@ -69,5 +72,46 @@ max-width: none;
 
 .info-panel{
   display: inline-block;
-  height: 300px;
+  min-height: 340px;
+  min-width: 300px;
 }
+
+.panel-header {
+  background-color: #515151;
+  height: 45px;
+  width: 100%;
+  padding: 10px 0 0 10px;
+  color: #FFF;
+}
+.panel-header h3{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-weight: 200;
+}
+
+#myIntro{
+  margin-top: 25px;
+}
+
+.legend{
+  float: left;
+}
+
+.legend-item h4{
+  font-weight: bold;
+}
+
+.android{
+  color: #A4C739;
+}
+
+.ios{
+  color: #33CCFF;
+}
+
+.web{
+  color: #F2A222;
+}
+
+
+
