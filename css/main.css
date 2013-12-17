@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+   background:url('../images/white_carbon.png');
+   padding-top: 20px; 
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -80px;
+  /* Pad bottom by footer height */
+  padding: 0 0 80px;
+}
+
+#footer{
+  padding-top: 10px;
+  background-color: #DBDBDB
+}
+.navbar .nav > li > a {
+     font-weight: 200;
+}
+.navbar .navbar-brand {
+    color: #F2A222;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 30px
+}
+.navbar .navbar-brand .inner-logo{
+  color:#DBDBDB;
+  font-weight: 200;
+}
+
+.copyright{
+  padding-top: 15px;
+}
+
+.social-icons{
+  padding: 0px 20px 0px 20px;
+  
+}
+
+.carousel {
+    box-shadow: 0 0 15px black;
+}
+.carousel-inner > .item > img{
+   min-width: 100%;
+   min-height: 500px;
+   max-height: 600px
+ }
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
+max-width: none;
+}
+
+.info-panel-container {
+
+  margin: 20px 0px 20px 0px;
+}
+
+.info-panel{
+  display: inline-block;
+  height: 300px;
+}
