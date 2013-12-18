@@ -23,3 +23,12 @@
 .carousel-image span img{
     min-width: 100%;
 }
+
+.container .carousel-caption {
+    background: rgba(34, 34, 34, 0.5);
+    margin-bottom: 20%;
+}
+
+.container .carousel-caption .lead{
+    color: #ffffff;
+}
