@@ -26,3 +26,51 @@
 .legend-item h4 {
     font-weight: bold;
 }
+.header #corvette {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font: 0/0 serif;
+    text-shadow: none;
+    color: transparent;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.header #corvette .inner {
+    padding-top: 48.96%; /* height/width of image */
+    display: block;
+    height: 0;
+}
+
+/* default screen, non-retina */
+.header #corvette {
+    background-image: url("../images/orangez970.png");
+}
+
+@media only screen and (max-width: 320px) {
+    /* Small screen, non-retina */
+    .header #corvette {
+        background-image: url("../images/orangez290.png");
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    .header #corvette {
+        background-image: url("../images/orangez538.png");
+    }
+}
+
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
