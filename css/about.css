@@ -9,6 +9,9 @@
     padding-bottom: 40%;
 }
 
+.header{
+    box-shadow: 0 0 15px black;
+}
 .header #corvette {
     width: 100%;
     display: inline-block;
