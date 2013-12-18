@@ -1,0 +1,28 @@
+/* Carousel */
+.carousel {
+    box-shadow: 0 0 15px black;
+}
+
+.carousel-inner > .item > img {
+    min-width: 100%;
+    min-height: 300px;
+    max-height: 600px
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    max-width: none;
+}
+
+#myIntro {
+    margin-top: 25px;
+}
+
+.legend {
+    float: left;
+}
+
+.legend-item h4 {
+    font-weight: bold;
+}
