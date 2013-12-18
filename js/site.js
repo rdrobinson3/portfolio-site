@@ -1,12 +1,15 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-         $('.carousel').carousel({
-             interval: 5000
-         })
+    $('.carousel').carousel({
+        interval: 5000
+    })
 
-         
-		var yourStartLatLng = new google.maps.LatLng(59.3426606750, 18.0736160278);
-		$('#map_canvas').gmap({'center': yourStartLatLng});
+    $('#map_canvas').gmap({'zoom':7, 'center':'34.176376,-82.023768'}).bind('init', function() {
+        $('#map_canvas').gmap('addMarker', {'position':'34.176376,-82.023768', 'bounds':false}).click(function() {
+            $('#map_canvas').gmap('openInfoWindow', {'content': 'Ninety Six'}, this);
+        });
+    });
 
- });    
+
+});
 
