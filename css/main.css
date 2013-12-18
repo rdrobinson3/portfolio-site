@@ -57,12 +57,10 @@ body {
 
 /* Info Panels */
 .info-panel-container {
-
     margin: 10px 0px 20px 0px;
 }
 
 .info-panel {
-    display: inline-block;
     min-height: 340px;
     min-width: 300px;
 }

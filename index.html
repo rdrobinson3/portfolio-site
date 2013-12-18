@@ -50,27 +50,32 @@
             <ol class="carousel-indicators middle">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
                 <div class="active item header">
-                    <span id="corvette" role="img" aria-label="Trey with his Corvette">
-                        <span class="inner">
-                        </span>
+                    <span class="carousel-image" data-picture data-alt="Picture of Trey">
+                        <span data-src="images/orangez290.png"></span>
+                        <span data-src="images/orangez538.png" data-media="(min-width: 400px)"></span>
+                        <span data-src="images/orangez970.png" data-media="(min-width: 800px)"></span>
+
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript><img src="images/orangez970.png" alt="Picture of Trey"></noscript>
+
                     </span>
                 </div>
                 <div class="item header">
-                    <span id="corvette" role="img" aria-label="Trey with his Corvette">
-                        <span class="inner">
-                        </span>
-                    </span>
-                </div>
-                <div class="item header">
-                    <span id="corvette" role="img" aria-label="Trey with his Corvette">
-                        <span class="inner">
-                        </span>
-                    </span>
+
+                    <span class="carousel-image" data-picture data-alt="The Orange keyboard Trey uses for development">
+                        <span data-src="images/keyboard290.png"></span>
+                        <span data-src="images/keyboard538.png" data-media="(min-width: 400px)"></span>
+                        <span data-src="images/keyboard970.png" data-media="(min-width: 800px)"></span>
+
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript><img src="images/keyboard290.png" alt="The Orange keyboard Trey uses for development"></noscript>
+                    </span>                   
+
+
                 </div>
             </div>
             <!-- Carousel nav -->
@@ -115,21 +120,23 @@
                     </div>
                     <div class="panel-body info-panel">
 
-                        <div class="legend">
-                            <div class="legend-item android">
-                                <h4>Android</h4>
+                        <div class="center-block" id="chartContainer">
+                            <div class="legend pull-left">
+                                <div class="legend-item android">
+                                    <h4>Android</h4>
+                                </div>
+                                <div class="legend-item ios">
+                                    <h4>iOS</h4>
+                                </div>
+                                <div class="legend-item web">
+                                    <h4>Web</h4>
+                                </div>
                             </div>
-                            <div class="legend-item ios">
-                                <h4>iOS</h4>
-                            </div>
-                            <div class="legend-item web">
-                                <h4>Web</h4>
-                            </div>
+
+                            <img class="img-responsive pull-left" id="mySkillsChart"
+                                 src="images/skills-pie.png"/>
                         </div>
 
-
-                        <img class="img-responsive" id="corvetteHeaderImage" style="float:right;" id="mySkillsChart"
-                             src="images/skills-pie.png"/>
                     </div>
                 </div>
             </div>
@@ -163,6 +170,15 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/picturefill.js"></script>
 <script src="js/home.js"></script>
+<!--
+<p>Window size: <span id="size"></span> pixels</p>
+<script>
+    window.onresize = function() {
+        document.getElementById("size").innerHTML = window.innerWidth;
+    };
+</script>
+-->
 </body>
 </html>
