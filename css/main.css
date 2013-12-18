@@ -52,6 +52,7 @@ body {
 
 /* Header Images */
 .header-image {
+    box-shadow: 0 0 15px black;
     min-width: 100%;
     min-height: 500px;
     max-height: 600px
