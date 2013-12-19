@@ -46,14 +46,37 @@
         </div>
     </div>
 
-    <div class="header">
-        <span id="corvette" role="img" aria-label="Trey with his Corvette">
-            <span class="inner">
-            </span>
-        </span>
-    </div>
 
+    <div class="row ">
+        <div class="carousel">
+        <span class="header" data-picture data-alt="Picture of Trey">
+
+            <span data-src="images/orangez290.png"></span>
+            <span data-src="images/orangez538.png" data-media="(min-width: 400px)"></span>
+            <span data-src="images/orangez970.png" data-media="(min-width: 800px)"></span>
+
+            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+            <noscript><img src="images/orangez290.png" alt="Picture of Trey"></noscript>
+
+        </span>
+            <div class="container">
+                <div class="carousel-caption visible-sm visible-md visible-lg">
+                    <h1>Hi, I'm Trey</h1>
+                    <p class="lead">Nerd. Avid runner. Car enthusiast.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <div class="container content">
+
+        <div class="row">
+            <div class="well" id="myIntro">
+                <p class="lead text-center">My name is Trey Robinson. I'm a developer, consultant, and aspiring writer. I live in Charlotte, NC. I work for
+                Captech Consulting, but the <strong>opinions and content of this site are my own</strong>. I love to share what I learn and write about it on my blog.
+                I generally blog about things I come across on whatever project I am currently hacking away at. I love all things mobile with a dab of the open web.</p>
+            </div>
+        </div>
 
         <div class="row featurette">
             <div class="col-md-7">
@@ -66,6 +89,28 @@
             <div id="map_canvas"></div>
         </div>
         <!-- /featurette-->
+
+        <hr class="featurette-divider">
+
+        <div class="jumbotron" id="pictureFrame">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img src="images/meandtheboys.png" class="img-responsive center-block"/>
+                    <h3>I am married</h3>
+                </div>
+                <hr class="visible-sm visible-xs">
+                <div class=" col-md-4">
+                    <img src="images/postrace.png" class="img-responsive center-block"/>
+                    <h3>I love running.</h3>
+                </div>
+                <hr class="visible-sm visible-xs">
+                <div class=" col-md-4">
+                    <img src="images/meandtheboys.png" class="img-responsive center-block" />
+                    <h3>I have two dogs</h3>
+                </div>
+            </div>
+        </div>
 
         <hr class="featurette-divider">
 
@@ -112,6 +157,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/jquery.ui.map.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/picturefill.js"></script>
 <script src="js/about.js"></script>
 </body>
 </html>

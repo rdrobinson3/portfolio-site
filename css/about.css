@@ -3,50 +3,24 @@
     border-style: solid;
     border-width: 15px;
     border-color: #515151;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 400px;
+    max-width: 400px;
     height: 0;
-    padding-bottom: 40%;
+    padding-bottom: 30%;
 }
 
-.header{
-    box-shadow: 0 0 15px black;
-}
-.header #corvette {
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
-    font: 0/0 serif;
-    text-shadow: none;
-    color: transparent;
-    background-size: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+.header span img{
+    min-width: 100%;
 }
 
-.header #corvette .inner {
-    padding-top: 48.95%; /* height/width of image */
-    display: block;
-    height: 0;
+.container .carousel-caption {
+    background: rgba(34, 34, 34, 0.5);
+    margin-bottom: 20%;
+
 }
 
-/* default screen, non-retina */
-.header #corvette {
-    background-image: url("../images/orangez970.png");
-}
-
-@media only screen and (max-width: 320px) {
-    /* Small screen, non-retina */
-    .header #corvette {
-        background-image: url("../images/orangez290.png");
-    }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 538px) {
-    /* Medium screen, non-retina */
-    .header #corvette {
-        background-image: url("../images/orangez538.png");
-    }
+.container .carousel-caption .lead{
+    color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -81,3 +55,11 @@
     border-color: #515151;
 }
 
+#pictureFrame {
+    background: url("../images/darth_stripe.png");
+}
+
+#pictureFrame .row .col-md-4 {
+    text-align: center;
+    color: #FFFFFF;
+}
