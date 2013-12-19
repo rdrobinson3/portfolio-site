@@ -7,6 +7,7 @@
     max-width: 400px;
     height: 0;
     padding-bottom: 30%;
+    box-shadow: 0 0 15px black;
 }
 
 .header span img{
@@ -57,10 +58,12 @@
     border-style: solid;
     border-width: 15px;
     border-color: #515151;
+    box-shadow: 0 0 15px black;
 }
 
 #pictureFrame {
     background: url("../images/darth_stripe.png");
+    box-shadow: 0 0 15px black;
 }
 
 #pictureFrame .row .col-md-4 {
