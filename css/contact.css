@@ -1,0 +1,15 @@
+/* embedded maps */
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-full .row{
+    padding: 0px 25px 0px 25px;
+}
+
+#submitButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
