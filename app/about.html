@@ -1,0 +1,203 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>website yeoman</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/about.css -->
+    <link rel="stylesheet" href="styles/about.css">
+    <!-- endbuild -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="wrap">
+    <div class="navbar  navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TREY<span class="inner-logo">ROBINSON</span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
+                    <li><a href="#about">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+
+    <div class="row ">
+        <div class="carousel">
+        <span class="header" data-picture data-alt="Picture of Trey">
+
+            <span data-src="images/orangez290.png"></span>
+            <span data-src="images/orangez538.png" data-media="(min-width: 400px)"></span>
+            <span data-src="images/orangez970.png" data-media="(min-width: 800px)"></span>
+
+            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+            <noscript><img src="images/orangez290.png" alt="Picture of Trey"></noscript>
+
+        </span>
+            <div class="container">
+                <div class="carousel-caption visible-sm visible-md visible-lg">
+                    <h1>Hi, I'm Trey</h1>
+                    <p class="lead">Nerd. Avid runner. Car enthusiast.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container content">
+
+        <div class="row">
+            <div class="well" id="myIntro">
+                <p class="lead text-center">My name is Trey Robinson. I'm a developer, consultant, and aspiring writer. I live in Charlotte, NC. I work for
+                    Captech Consulting, but the <strong>opinions and content of this site are my own</strong>. I love to share what I learn and write about it on my blog.
+                    I generally blog about things I come across on whatever project I am currently hacking away at. I love all things mobile with a dab of the open web.</p>
+            </div>
+        </div>
+
+        <div class="row featurette">
+            <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0">
+                <h2 class="featurette-heading">I grew up in Ninety Six, South Carolina. <span class="text-muted">Yes that is the name of the town.</span>
+                </h2>
+
+                <p class="lead">You don't believe me? <a href="http://en.wikipedia.org/wiki/Ninety_Six,_South_Carolina">Check
+                    out the Wikipedia page.</a></p>
+            </div>
+            <div id="map_canvas" class="col-sm-4 col-sm-offset-4 col-md-5 col-md-offset-0 center-block"></div>
+        </div>
+        <!-- /featurette-->
+
+        <hr class="featurette-divider">
+
+        <div class="jumbotron" id="pictureFrame">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <img src="images/meandtheboys.png" class="img-responsive center-block"/>
+                    <h3>I am married</h3>
+                </div>
+                <hr class="visible-sm visible-xs">
+                <div class=" col-md-4">
+                    <img src="images/postrace.png" class="img-responsive center-block"/>
+                    <h3>I love running.</h3>
+                </div>
+                <hr class="visible-sm visible-xs">
+                <div class=" col-md-4">
+                    <img src="images/meandtheboys.png" class="img-responsive center-block" />
+                    <h3>I have two dogs</h3>
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-sm-4 col-sm-offset-4 col-md-5 col-md-offset-0">
+                <img class="featurette-image img-responsive center-block" src="images/clemson-placeholder.png"
+                     alt="Generic placeholder image">
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0">
+                <h2 class="featurette-heading">I studied Computer Science at Clemson University. <span
+                        class="text-muted">Go Tigers!</span></h2>
+            </div>
+        </div>
+        <!-- /featurette-->
+
+        <hr class="featurette-divider">
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.wrap -->
+<div id="footer">
+    <div class="container">
+        <div class="col-md-12 text-center social-toolbar">
+
+            <a href="https://twitter.com/rdrobinson3"><i class="fa fa-twitter social-icon"></i></a>
+            <a href="https://google.com/+TreyRobinson"><i class="fa fa-google-plus social-icon"></i></a>
+            <a href="http://www.linkedin.com/pub/trey-robinson/22/830/4a5/"><i class="fa fa-linkedin social-icon"></i></a>
+            <a href="https://github.com/rdrobinson3"><i class="fa fa-github social-icon"></i></a>
+            <a href="http://www.thekeyconsultant.com/feeds/posts/default?alt=rss"><i class="fa fa-rss social-icon"></i></a>
+        </div>
+        <div class="col-md-12 copyright">
+            <p class="text-center">
+                <small class="text-muted">&copy; 2014 Trey Robinson</small>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+
+
+<!-- build:js scripts/plugins.js -->
+<script src="bower_components/sass-bootstrap/js/affix.js"></script>
+<script src="bower_components/sass-bootstrap/js/alert.js"></script>
+<script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+<script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+<script src="bower_components/sass-bootstrap/js/modal.js"></script>
+<script src="bower_components/sass-bootstrap/js/transition.js"></script>
+<script src="bower_components/sass-bootstrap/js/button.js"></script>
+<script src="bower_components/sass-bootstrap/js/popover.js"></script>
+<script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+<script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+<script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+<script src="bower_components/sass-bootstrap/js/tab.js"></script>
+<script src="bower_components/picturefill/picturefill.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="bower_components/jquery/jquery.min.js"></script>
+<!-- endbuild -->
+
+<script src="bower_components/jquery-ui-map-3.0-rc/ui/min/jquery.ui.map.min.js"></script>
+<script src="scripts/about.js"></script>
+
+</body>
+</html>

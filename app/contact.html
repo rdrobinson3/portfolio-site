@@ -1,0 +1,147 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>website yeoman</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/about.css -->
+    <link rel="stylesheet" href="styles/about.css">
+    <!-- endbuild -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+<!--[if lt IE 10]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="wrap">
+    <div class="navbar  navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">TREY<span class="inner-logo">ROBINSON</span></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li><a href="#about">Articles</a></li>
+                    <li class="active"><a href=#contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div class="container">
+        <img  src="http://placehold.it/400x500" class="img-responsive col-md-6"/>
+    </div>
+    <div class="container-full">
+        <div class="row" style="background-color: #ffffff">
+
+            <div class="col-md-12" >
+                <h3>Send me a message</h3>
+                <form role="form">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Your name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter name">
+                        <label for="inputEmail">Email address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputMessage">Message</label>
+                        <textarea id="inputMessage" class="form-control" rows="5" placeholder="Enter Message"></textarea>
+                        <button type="submit" id="submitButton" class="btn btn-success pull-right">Send your email</button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.wrap -->
+<div id="footer">
+    <div class="container">
+        <div class="col-md-12 text-center social-toolbar">
+
+            <a href="https://twitter.com/rdrobinson3"><i class="fa fa-twitter social-icon"></i></a>
+            <a href="https://google.com/+TreyRobinson"><i class="fa fa-google-plus social-icon"></i></a>
+            <a href="http://www.linkedin.com/pub/trey-robinson/22/830/4a5/"><i class="fa fa-linkedin social-icon"></i></a>
+            <a href="https://github.com/rdrobinson3"><i class="fa fa-github social-icon"></i></a>
+            <a href="http://www.thekeyconsultant.com/feeds/posts/default?alt=rss"><i class="fa fa-rss social-icon"></i></a>
+        </div>
+        <div class="col-md-12 copyright">
+            <p class="text-center">
+                <small class="text-muted">&copy; 2014 Trey Robinson</small>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/jquery.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+
+
+<!-- build:js scripts/plugins.js -->
+<script src="bower_components/sass-bootstrap/js/affix.js"></script>
+<script src="bower_components/sass-bootstrap/js/alert.js"></script>
+<script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+<script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+<script src="bower_components/sass-bootstrap/js/modal.js"></script>
+<script src="bower_components/sass-bootstrap/js/transition.js"></script>
+<script src="bower_components/sass-bootstrap/js/button.js"></script>
+<script src="bower_components/sass-bootstrap/js/popover.js"></script>
+<script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+<script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+<script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+<script src="bower_components/sass-bootstrap/js/tab.js"></script>
+<script src="bower_components/picturefill/picturefill.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="bower_components/jquery/jquery.min.js"></script>
+<!-- endbuild -->
+
+<script src="bower_components/jquery-ui-map-3.0-rc/ui/min/jquery.ui.map.min.js"></script>
+<script src="scripts/about.js"></script>
+
+</body>
+</html>
