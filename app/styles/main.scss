@@ -5,6 +5,15 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import url('http://fonts.googleapis.com/css?family=Exo+2:400,700,700italic,400italic,200,200italic,300,300italic');
 @import 'yeti-bootstrap.min.css';
 
+
+/* Colors */
+$highlight-color: #F2A222;
+$light-contrast-color: #DBDBDB;
+$dark-contrast-color: #515151;
+$ios-color: #33ccff;
+$android-color: #A4C739;
+
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -36,31 +45,25 @@ body {
 
 #footer {
   padding-top: 10px;
-  background-color: #DBDBDB;
+  background-color: $light-contrast-color;
   border-top-style: solid;
-  border-color: #F2A222;
+  border-color: $highlight-color;
   border-top-width: 2px;
 }
 
-/*
-.navbar-default{
-  background-color: #333333;
-  border-color: #222222;
-}
-*/
 .navbar .nav > li > a {
   font-weight: 200;
 }
 
 .navbar .navbar-brand {
-  color: #F2A222;
+  color: $highlight-color;
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   font-size: 30px
 }
 
 .navbar .navbar-brand .inner-logo {
-  color: #DBDBDB;
+  color: $light-contrast-color;
   font-weight: 200;
 }
 
@@ -89,7 +92,7 @@ body {
 }
 
 .panel-default .panel-heading {
-  background-color: #515151;
+  background-color: $dark-contrast-color;
   height: 45px;
   width: 100%;
   padding: 10px 0 0 10px;
@@ -103,31 +106,31 @@ body {
 }
 
 .android {
-  color: #A4C739;
+  color: $android-color;
 }
 
 .ios {
-  color: #33CCFF;
+  color: $ios-color;
 }
 
 .web {
-  color: #F2A222;
+  color: $highlight-color;
 }
 
 .social-toolbar a:link {
-  color: #515151;
+  color: $dark-contrast-color;
 }
 
 .social-toolbar a:visited {
-  color: #515151;
+  color: $dark-contrast-color;
 }
 
 .social-toolbar a:hover {
-  color: #F2A222;
+  color: $highlight-color;
 }
 
 .social-toolbar a:active {
-  color: #515151;
+  color: $dark-contrast-color;
 }
 
 .container-full {
