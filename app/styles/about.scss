@@ -1,8 +1,12 @@
+/* Colors */
+$dark-contrast-color: #515151;
+
+
 /* embedded maps */
 #map_canvas {
     border-style: solid;
     border-width: 15px;
-    border-color: #515151;
+    border-color: $dark-contrast-color;
     max-height: 400px;
     max-width: 400px;
     height: 0;
@@ -57,7 +61,7 @@
 .featurette-image {
     border-style: solid;
     border-width: 15px;
-    border-color: #515151;
+    border-color: $dark-contrast-color;
     box-shadow: 0 0 15px black;
 }
 
