@@ -7,7 +7,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 
 
 /* Colors */
-$highlight-color: #F2A222;
+$highlight-color: #fc542d;
 $light-contrast-color: #DBDBDB;
 $dark-contrast-color: #515151;
 $ios-color: #33ccff;
@@ -141,4 +141,8 @@ body {
 #submitButton{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.form-title{
+  margin-left: 15px;
 }
