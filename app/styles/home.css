@@ -33,3 +33,8 @@
 .container .carousel-caption .lead{
     color: #ffffff;
 }
+
+.main-banner-image-caption {
+    left: 50%;
+    right: 5%;
+}
