@@ -1,7 +1,5 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
-
 $fa-font-path: "/bower_components/font-awesome/fonts";
-@import 'font-awesome/scss/font-awesome';
 @import url('http://fonts.googleapis.com/css?family=Exo+2:400,700,700italic,400italic,200,200italic,300,300italic');
 @import 'yeti-bootstrap.min.css';
 
@@ -28,7 +26,7 @@ html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
-  background: url('../images/white_carbon.png');
+  background: url('/images/white_carbon.png');
   padding-top: 20px;
 }
 
