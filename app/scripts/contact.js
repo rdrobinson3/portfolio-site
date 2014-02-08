@@ -12,25 +12,29 @@ $(document).ready(function() {
     $("#contactForm").on("submit", function(e) {
         e.preventDefault();
 
+        $("#successBox").addClass("hide");
+        $("#errorBox").addClass("hide");
+
         console.log("Handling the submit");
         //add error handling here
         //gather the form data
+
 
         var data = {};
         data.name = $("#inputName").val();
         data.email = $("#inputEmail").val();
         data.comments = $("#inputMessage").val();
 
-
         var comment = new CommentObject();
         comment.save(data, {
             success:function() {
                 console.log("Success");
                 //Alerts are lame - but quick and easy
-                $("successBox").slideDown(400);
+                $("#successBox").slideDown(400).removeClass("hide");
             },
             error:function(e) {
                 console.dir(e);
+                $("#errorBox").slideDown(400).removeClass("hide");
             }
         });
 
