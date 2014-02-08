@@ -73,21 +73,23 @@
 
     </div>
     <div class="container-full">
+
+        <div id="successBox" class="alert alert-success hide">This is a test</div>
         <div class="row">
 
             <div class="col-md-12" >
                 <h3 class="form-title">Send me a message</h3>
-                <form role="form">
+                <form id="contactForm">
                     <div class="form-group col-md-6">
                         <label for="inputName">Your name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="Enter name">
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter name" required>
                         <label for="inputEmail">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputMessage">Message</label>
-                        <textarea id="inputMessage" class="form-control" rows="5" placeholder="Enter Message"></textarea>
-                        <button type="submit" id="submitButton" class="btn btn-success pull-right">Send your email</button>
+                        <textarea id="inputMessage" class="form-control" rows="5" placeholder="Enter Message" required></textarea>
+                        <input type="submit" id="submitButton" class="btn btn-success pull-right">Send your email</button>
                     </div>
                 </form>
 
@@ -137,6 +139,13 @@
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
 
+<!-- build:js scripts/parse.js -->
+<script src="scripts/parse-1.2.16.min.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/contact.js -->
+<script src="scripts/contact.js"></script>
+<!-- endbuild -->
 
 <!-- build:js scripts/plugins.js -->
 <script src="bower_components/sass-bootstrap/js/affix.js"></script>
